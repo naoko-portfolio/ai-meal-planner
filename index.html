@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AI Fridge Meal Planner</title>
+</head>
+<body>
+    <div class="container">
+    <h1>AI Fridge Meal Planner</h1>
+    <p>Create your weekly dinner plan with AI.</p>
+
+    <div class="form-group">
+        <label for="familySize">Family Size:</label><br>
+        <input type="number" id="familySize"><br><br>
+    </div>
+
+    <div class="form-group">
+        <label for="cookingTime">Cooking Time:</label><br>
+        <select id="cookingTime">
+            <option>15 minutes</option>
+            <option selected>30 minutes</option>
+            <option>45 minutes</option>
+
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label>Cuisine:</label><br><br>
+
+        <input type="checkbox" id="japanese" value="Japanese">
+        <label for="japanese">Japanese</label><br>
+   
+        <input type="checkbox" id="chinese" value="Chinese">
+        <label for="chinese">Chinese</label><br>
+
+        <input type="checkbox" id="korean" value="Korean">
+        <label for="korean">Korean</label><br>
+
+        <input type="checkbox" id="italian" value="Italian">
+        <label for="italian">Italian</label><br>
+
+        <input type="checkbox" id="western" value="Western">
+        <label for="western">Western</label><br>
+        
+        <input type="checkbox" id="other"value="Other">
+        <label for="other">Other</label><br><br>
+
+        <label for="otherCuisine">Please specify:</label>
+        <input type="text" 
+                id="otherCuisine"
+                placeholder="e.g. Thai, Indian, Mexican">
+    </div>
+
+    <div class="form-group">
+        <label for="ingredients">What are in your refrigerator:</label>
+        <input type="text" 
+                id="ingredients"
+                placegolder="e.g. chiken, eggs,tomatoes, milk">
+     </div>
+
+        <button id="generateButton">Generate Meal Plan</button>
+        <h2>Your Meal Plan</h2>
+        <div id="mealPlan">Your 7-day meal plan will appear here.</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

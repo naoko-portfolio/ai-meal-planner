@@ -18,7 +18,6 @@ AI Meal Planner is a simple web application that helps users generate meal ideas
 - User accounts
 - Save favorite meal plans
 - Nutrition information
-- Save favorite meal plans
 
 ## Resources
 - [Live Demo](http://naoko-ai-meal-planner-2026.s3-website.us-east-2.amazonaws.com/)  

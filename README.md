@@ -18,3 +18,7 @@ AI Meal Planner is a simple web application that helps users generate meal ideas
 - AI-powered meal recommendations
 - Nutrition information
 - Save favorite meal plans
+
+## Resources
+- Live Demo: http://naoko-ai-meal-planner-2026.s3-website.us-east-2.amazonaws.com/
+- AWS Builder Center Article: https://builder.aws.com/content/3HPnEEfCKpNzgTkYZwQe4SM08jW/weekend-annoying-task-challenge-ai-fridge-meal-planner
